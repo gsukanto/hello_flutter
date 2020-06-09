@@ -1,0 +1,41 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title":"Bananas",
+      "description" : "A banana is an elongated, edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa. In some countries, bananas used for cooking may be called \"plantains\", distinguishing them from dessert bananas."
+    }, {
+      "id": 2,
+      "title":"Tempehs",
+      "description" : "Tempeh or tempe is a traditional Indonesian soy product, that is made from fermented soybeans. It is made by a natural culturing and controlled fermentation process that binds soybeans into a cake form."
+    }, {
+      "id": 3,
+      "title":"Apples",
+      "description" : "An apple is an edible fruit produced by an apple tree. Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus. The tree originated in Central Asia, where its wild ancestor, Malus sieversii, is still found today."
+    }, {
+      "id": 4,
+      "title":"Avocados",
+      "description" : "The avocado, a tree likely originating from south-central Mexico, is classified as a member of the flowering plant family Lauraceae. The fruit of the plant, also called an avocado, is botanically a large berry containing a single large seed."
+    }, {
+      "id": 5,
+      "title":"Oregano",
+      "description" : "Oregano is a flowering plant in the mint family. It is native to temperate Western and Southwestern Eurasia and the Mediterranean region. Oregano is a perennial herb, growing from 20–80 cm tall, with opposite leaves 1–4 cm long. The flowers are purple, 3–4 mm long, produced in erect spikes."
+    }, {
+      "id": 6,
+      "title":"Breadsticks",
+      "description" : "Breadsticks, also known as grissini, grissino or dipping sticks, are generally pencil-sized sticks of crisp, dry baked bread that originated in Italy."
+    }, {
+      "id": 7,
+      "title":"Cucumber",
+      "description" : "Cucumber is a widely-cultivated creeping vine plant in the Cucurbitaceae gourd family that bears cucumiform fruits, which are used as vegetables. There are three main varieties of cucumber—slicing, pickling, and burpless/seedless—within which several cultivars have been created."
+    }, {
+      "id": 8,
+      "title":"Clementines",
+      "description" : "A clementine is a tangor, a citrus fruit hybrid between a willowleaf mandarin orange and a sweet orange, named for its late 19th-century discoverer. The exterior is a deep orange colour with a smooth, glossy appearance. Clementines can be separated into 7 to 14 segments."
+    }, {
+      "id": 9,
+      "title":"Cherry tomatoes",
+      "description" : "The cherry tomato is a type of small round tomato believed to be an intermediate genetic admixture between wild currant-type tomatoes and domesticated garden tomatoes. Cherry tomatoes range in size from a thumbtip up to the size of a golf ball, and can range from spherical to slightly oblong in shape."
+    }
+  ]
+}
