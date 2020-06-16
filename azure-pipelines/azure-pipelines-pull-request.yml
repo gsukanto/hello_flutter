@@ -1,0 +1,29 @@
+pr:
+  - master
+
+jobs:
+  - job: 'lint_test_pr'
+    pool:
+      vmImage: 'macOS-latest'
+    steps:
+
+    - task: FlutterInstall@0
+
+    - script: '$(FlutterToolPath)/flutter analyze'
+      displayName: flutter analyze
+
+    - task: FlutterTest@0
+
+    - script: '$(FlutterToolPath)/flutter test --coverage'
+      displayName: flutter test --coverage
+
+    - script: 'curl -O https://raw.githubusercontent.com/eriwen/lcov-to-cobertura-xml/master/lcov_cobertura/lcov_cobertura.py'
+      displayName: download lcov converter
+
+    - script: 'python3 lcov_cobertura.py $(System.DefaultWorkingDirectory)/coverage/lcov.info --output $(System.DefaultWorkingDirectory)/coverage/coverage.xml'
+      displayName: convert lcov infofile to xml
+
+    - task: PublishCodeCoverageResults@1
+      inputs:
+        codeCoverageTool: cobertura
+        summaryFileLocation: '$(System.DefaultWorkingDirectory)/coverage/coverage.xml'
